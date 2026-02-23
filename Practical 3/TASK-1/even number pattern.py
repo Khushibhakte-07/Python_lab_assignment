@@ -1,0 +1,9 @@
+# Program 5: Continuous Even Number Pattern
+
+num = 2
+
+for i in range(1, 5):
+    for j in range(1, i+1):
+        print(num, end=" ")
+        num = num + 2
+    print()
